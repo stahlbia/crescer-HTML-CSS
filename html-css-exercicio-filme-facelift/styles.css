@@ -1,0 +1,35 @@
+body {
+  background-color: #bdbdbd;
+  font-family: Calibri;
+  font-size: 25px;
+  color: #bdbdbd;
+}
+
+.corpo {
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+  padding: 10px 50px;
+  box-sizing: border-box;
+}
+
+.imagem-topo {
+  padding: 0px;
+}
+
+.titulo-filme {
+  font-size: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.titulo-secundario {
+  justify-content: left;
+  font-size: 35px;
+}
+
+.texto-informativo {
+  justify-content: left;
+}

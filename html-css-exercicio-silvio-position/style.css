@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgound {
+  width: 634px;
+  height: 768px;
+  position: relative;
+  display: flex;
+  
+}
+
+.box {
+  display: flex;
+  width: 634px;
+  height: 180px;
+  background: #000000;
+  opacity: 0.5;
+  padding: 15px 20px 18px;
+
+  position: absolute;
+  bottom: 0px;
+}
+
+.text {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  opacity: 1;
+}

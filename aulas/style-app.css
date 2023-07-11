@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+.app-header {
+  height: 80px;
+  background: #fff;
+}
+
+.app-content {
+  border: 1px solid #000;
+  margin: 5px 0;
+  background: #fff;
+  flex-grow: 1;
+}
+
+.app-footer {
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app-footer-link {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
